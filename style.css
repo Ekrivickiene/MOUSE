@@ -1,0 +1,64 @@
+body {
+  background: #32a8a2;
+}
+.bubble {
+  height: 150px;
+    width: 150px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(200px, 150px);
+    animation: colorchanger 5s infinite;
+
+}
+.bubble2 {
+  height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(80px, 50px);
+
+}
+
+.bubble3 {
+  height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(150px, 50px);
+
+}
+
+.bubble4 {
+  height: 60px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transform: translate(80px, 150px);
+
+}
+
+
+.bubble1 {
+  height: 300px;
+    width: 300px;
+    background-color: green;
+    border-radius: 50%;
+
+
+
+}
+.bubble1:hover {
+  transform: translate(200px, 100px);
+  transition: transform 3s linear;
+  transition-delay: 1s;
+}
+@keyframes colorchanger {
+  0%   {background-color: #a83832; width: 150px;}
+  25%  {background-color: #8ba832; width: 100px;}
+  50%  {background-color: #32a84c; width: 150px;}
+  75%  {background-color: #32a4a8; width: 100px;}
+  100% {background-color: #a2a832; width: 150px;}
